@@ -1,0 +1,53 @@
+name: HomeAndTP
+version: '1.0.0'
+main: com.homeandtp.HomeAndTPPlugin
+api-version: '1.20'
+author: YourName
+description: A plugin for home and teleport management
+
+commands:
+  sethome:
+    description: Set your home location
+    usage: /sethome [name]
+    aliases: [createhome]
+  home:
+    description: Teleport to your home
+    usage: /home [name]
+    aliases: [gohome]
+  delhome:
+    description: Delete a home
+    usage: /delhome [name]
+    aliases: [removehome, deletehome]
+  homes:
+    description: List all your homes
+    usage: /homes
+    aliases: [listhomes]
+  tp:
+    description: Teleport to a player
+    usage: /tp <player>
+    permission: homeandtp.tp
+  tphere:
+    description: Teleport a player to you
+    usage: /tphere <player>
+    permission: homeandtp.tphere
+    aliases: [tph]
+
+permissions:
+  homeandtp.sethome:
+    description: Allows setting homes
+    default: true
+  homeandtp.home:
+    description: Allows teleporting to homes
+    default: true
+  homeandtp.delhome:
+    description: Allows deleting homes
+    default: true
+  homeandtp.homes:
+    description: Allows listing homes
+    default: true
+  homeandtp.tp:
+    description: Allows teleporting to players
+    default: op
+  homeandtp.tphere:
+    description: Allows teleporting players to you
+    default: op
