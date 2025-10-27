@@ -350,7 +350,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Credits
 
-**Author**: xk3ppan  
+**Author**: keppangithub  
 **Version**: 1.0.0  
 **Minecraft Version**: 1.20.4  
 **API**: Paper/Spigot
@@ -370,4 +370,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with dedication for the Minecraft community
+**Passion project 
+
