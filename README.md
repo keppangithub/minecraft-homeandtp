@@ -2,6 +2,46 @@
 
 A lightweight and feature-rich Minecraft plugin for managing home locations and teleportation.
 
+## Table of Contents
+
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Commands](#commands)
+  - [Home Commands](#home-commands)
+  - [Admin Commands (Planned)](#admin-commands-planned)
+- [Permissions](#permissions)
+- [Features in Detail](#features-in-detail)
+  - [Multiple Homes System](#multiple-homes-system)
+  - [Smart Validation](#smart-validation)
+  - [Data Storage](#data-storage)
+- [Configuration](#configuration)
+- [Building from Source](#building-from-source)
+  - [Prerequisites](#prerequisites)
+  - [Build Steps](#build-steps)
+  - [Development Setup](#development-setup)
+- [Development](#development)
+  - [Project Structure](#project-structure)
+  - [Code Architecture](#code-architecture)
+  - [Adding New Features](#adding-new-features)
+- [API Usage](#api-usage)
+- [Testing](#testing)
+  - [Manual Testing Setup](#manual-testing-setup)
+  - [Test Scenarios](#test-scenarios)
+- [Roadmap](#roadmap)
+  - [Version 1.1.0](#version-110)
+  - [Version 1.2.0](#version-120)
+  - [Version 2.0.0](#version-200)
+- [Contributing](#contributing)
+  - [Code Style](#code-style)
+- [Troubleshooting](#troubleshooting)
+- [Support](#support)
+- [License](#license)
+- [Credits](#credits)
+- [Changelog](#changelog)
+
+---
+
 ## Features
 
 - **Multiple Homes**: Set up to 5 home locations per player
@@ -310,9 +350,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Credits
 
-**Author**: xk3ppan
-**Version**: 1.0.0
-**Minecraft Version**: 1.20.4
+**Author**: xk3ppan  
+**Version**: 1.0.0  
+**Minecraft Version**: 1.20.4  
 **API**: Paper/Spigot
 
 ## Changelog
@@ -330,4 +370,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with dedication for the Minecraft community**
+**Made with dedication for the Minecraft community
