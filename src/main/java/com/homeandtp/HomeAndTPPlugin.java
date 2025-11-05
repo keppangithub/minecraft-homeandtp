@@ -1,6 +1,8 @@
 package com.homeandtp;
 
+import com.homeandtp.plugin.command.DelHomeCommand;
 import com.homeandtp.plugin.command.HomeCommand;
+import com.homeandtp.plugin.command.HomesCommand;
 import com.homeandtp.plugin.command.setHomeCommand;
 import com.homeandtp.plugin.data.YamlHomeRepository;
 import com.homeandtp.plugin.service.HomeService;
@@ -22,6 +24,8 @@ public class HomeAndTPPlugin extends JavaPlugin {
         // Register commands
         getCommand("sethome").setExecutor(new setHomeCommand(homeService));
         getCommand("home").setExecutor(new HomeCommand(homeService));
+        getCommand("delhome").setExecutor(new DelHomeCommand(homeService));
+        getCommand("homes").setExecutor(new HomesCommand(homeService));
 
         // Log success
         getLogger().info("HomeAndTP Plugin has been enabled!");
